@@ -1,0 +1,45 @@
+// GCSE English Literature Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM097",
+  slug: "gcse-english-literature",
+  name: "GCSE English Literature",
+  fullName: "GCSE English Lit",
+  alias: "GCSE English Lit",
+  family: "GCSE",
+  category: "School exams",
+  subcategory: "Secondary qualification",
+  country: "United Kingdom",
+  region: "EMEA",
+  languages: ["English"],
+  estimatedAnnualTakers: "high",
+  testingWindow: "May-Jun",
+  schedulePattern: "Annual",
+  ageGroup: "14-16",
+  targetUser: "School student",
+  delivery: "Paper-based",
+  questionTypes: ["Essay","short answer"],
+  adaptivity: "Linear",
+  sections: "2 papers",
+  scoringMode: "Grade 1-9",
+  essayOrSpeaking: "Essay",
+  ipRisk: "Low",
+  contentReuse: "english_literature",
+  uiEngine: "paper_essay",
+  monetizationPotential: "High",
+  tier: "Tier 2",
+  launchWave: "Wave 3",
+  themeColor: "#D97706",
+  themeColorDark: "#B45309",
+  localizationComplexity: "Low",
+  offlineNeeded: true,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;

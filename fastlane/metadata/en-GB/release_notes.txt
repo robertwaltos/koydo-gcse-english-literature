@@ -1,0 +1,5 @@
+Initial release of Koydo GCSE English Literature Prep.
+
+• Practise questions
+• Score tracking
+• AI tutor integration
